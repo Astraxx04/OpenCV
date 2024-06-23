@@ -5,7 +5,7 @@ import cv2 as cv
 # cv.waitKey(0)
 
 #Video
-capture = cv.VideoCapture('Videos/dog.mp4')
+capture = cv.VideoCapture(1)
 while True:
     isTrue, frame = capture.read()
     cv.imshow('Video', frame)
